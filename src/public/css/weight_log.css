@@ -1,0 +1,147 @@
+.container {
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 20px;
+    font-family: sans-serif;
+}
+
+.card-area {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.card {
+    background: #fff;
+    border: 1px solid #eee;
+    border-radius: 12px;
+    padding: 20px;
+    width: 30%;
+    text-align: center;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.card-label {
+    color: #888;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.card-value {
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+}
+
+.search-area {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.search-form input {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    margin-right: 5px;
+}
+
+.btn {
+    background-color: #555;
+    color: white;
+    padding: 6px 15px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #333;
+}
+
+.btn-add {
+    background: linear-gradient(to right, #ff80ab, #b388ff);
+    color: white;
+    padding: 8px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.btn-add:hover {
+    opacity: 0.9;
+}
+
+.table-container {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+table th, table td {
+    padding: 12px;
+    border-bottom: 1px solid #eee;
+}
+
+.edit-link {
+    color: #a64bf4;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.edit-link:hover {
+    color: #8000ff;
+}
+
+.pagination {
+    margin-top: 20px;
+    text-align: center;
+}
+.search-area {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.btn-goal-setting {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 158px;
+    height: 44px;
+    border-radius: 5px;
+    padding: 0 10px;
+    gap: 10px;
+    border: 1px solid #CDCDCD;
+    background-color: #F7F7F7;
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.logout-form {
+    margin: 0;
+}
+
+.btn-logout {
+    width: 100px;
+    height: 44px;
+    border-radius: 5px;
+    border: 1px solid #CDCDCD;
+    background-color: #F7F7F7;
+    color: #000;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+    user-select: none;
+}

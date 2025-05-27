@@ -1,0 +1,100 @@
+.auth-background {
+    background-image: url('/images/bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .auth-card {
+    background-color: #fff;
+    width: 580px;
+    height: 721px;
+    border-radius: 24px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  }
+  .auth-card h2 {
+    text-align: center;
+    font-size: 24px;
+  }
+  
+  .auth-card input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 16px;
+  }
+  
+  .auth-card button {
+    width: 250px;
+    height: 50px;
+    border-radius: 12px;
+    padding: 10px;
+    gap: 10px;
+  
+    background: linear-gradient(90deg, #A3A6E1 0%, #FFABD9 100%);
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .auth-card .login-link {
+    text-align: center;
+  }
+  .auth-card .login-link a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  .pigly-logo {
+    font-family: 'Lora', serif;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 100%;
+    letter-spacing: 0.1em;
+    color: #EC87EF;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+.auth-card h2 {
+    width: 220px;
+    height: 45px;
+    font-family: 'Hiragino Mincho Pro', serif;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 100%;
+    letter-spacing: 0.1em;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+.step-info {
+    width: 500px;
+    height: 24px;
+    font-family: 'Hiragino Kaku Gothic Pro', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0;
+    text-align: center;
+    margin: 0 auto 20px;
+  }
+  .form__error {
+    color: red;
+    font-size: 0.9em;
+    margin-top: 4px;
+  }
+  
